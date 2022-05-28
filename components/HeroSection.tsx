@@ -6,13 +6,12 @@ const HeroSection: React.FC = () => {
     <div className={classes.container}>
       <div className={classes.left}>
         <h1>Logo</h1>
-        <h2>Gayatri Sanskrit Vidyalaya</h2>
-        <h4>Established</h4>
+        <h2>गायत्री संस्कृत माध्यमिक विद्यालय</h2>
+        <h4>स्थापना वर्ष 1980 .81</h4>
       </div>
-      <div>
-        <h2>Address line 1</h2>
-        <h3>Address line 2</h3>
-        <h3>Address Line 3</h3>
+      <div className={classes.right}>
+        <h2>गायत्री संस्कृत माध्यमिक विद्यालय, </h2>
+        <h2>भटपुरवा बजदहिया पाईपुर बसखारी अंबेडकर नगर</h2>
       </div>
     </div>
   );

@@ -1,9 +1,25 @@
+.container
+{
+    /* height: clamp(200px, 700px ,2000px); */
+    display: flex;
+    flex-flow: column nowrap;
+    max-height: 1200px;
+}
+.container h1
+{
+    text-align: center;
+    
+} 
 .Swiper
 {
-    height: 900px;
-    margin-bottom: 50px;
+    max-height: 100%;
+    
+    margin: 20px 10px 50px 10px;
+    border-radius: 20px;
 }
 .img
 {
-    width: 100vw;
+    width: 100%;
+    object-fit: scale-down;
+    object-position: center;
 }
