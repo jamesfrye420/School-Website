@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
 
 const events: string[] = [
-  'functions/0003.jpeg',
+  'functions/0003.jpg',
 
   'functions/0004.jpeg',
 
