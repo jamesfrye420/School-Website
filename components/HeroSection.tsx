@@ -5,7 +5,7 @@ const HeroSection: React.FC = () => {
   return (
     <div className={classes.container}>
       <div className={classes.left}>
-        <h1>Logo</h1>
+        <img src="Logo.jpeg" alt="logo" />
         <h2>गायत्री संस्कृत माध्यमिक विद्यालय</h2>
         <h4>स्थापना वर्ष 1980 .81</h4>
       </div>

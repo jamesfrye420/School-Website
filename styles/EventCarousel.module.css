@@ -1,25 +1,15 @@
-.container
-{
-    /* height: clamp(200px, 700px ,2000px); */
-    display: flex;
-    flex-flow: column nowrap;
-    max-height: 1200px;
+.container {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 600px;
 }
-.container h1
-{
-    text-align: center;
-    
-} 
-.Swiper
-{
-    max-height: 100%;
-    
-    margin: 20px 10px 50px 10px;
-    border-radius: 20px;
+.container h1 {
+  text-align: center;
 }
-.img
-{
-    width: 100%;
-    object-fit: scale-down;
-    object-position: center;
+.Swiper {
+  height: 600px;
+  margin: 0px 10px 50px 10px;
+  border-radius: 20px;
 }

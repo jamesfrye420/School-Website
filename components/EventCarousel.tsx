@@ -31,8 +31,8 @@ const EventCarousel: React.FC<{ events: string[] }> = (props) => {
       >
         {props.events.map((event, index) => {
           return (
-            <SwiperSlide key={index}>
-              <img className={classes.img}src={event} alt="events" />
+            <SwiperSlide key={index} className={classes.swiperSlide}>
+              <img src={event} alt="events" />
             </SwiperSlide>
           );
         })}

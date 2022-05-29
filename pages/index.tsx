@@ -1,11 +1,10 @@
 import type { NextPage } from 'next';
+import Head from 'next/head';
 import EventCarousel from '../components/EventCarousel';
 import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
 
 const events: string[] = [
-  'functions/0001.jpeg',
-
   'functions/0003.jpeg',
 
   'functions/0004.jpeg',
@@ -19,11 +18,17 @@ const events: string[] = [
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <HeroSection />
-      <EventCarousel events={events} />
-      <Footer />
-    </div>
+    <>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
+      <div>
+        <HeroSection />
+        <img src="school.jpeg" alt="image" className="index__image" />
+        <EventCarousel events={events} />
+        <Footer />
+      </div>
+    </>
   );
 };
 

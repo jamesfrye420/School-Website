@@ -5,26 +5,27 @@
   padding: 0.625rem 1.25rem;
   align-items: center;
 }
-.left h2 , .left h4
-{
+.left img {
+  height: 4rem;
+  width: 4rem;
+  margin: 0;
+  padding: 0;
+}
+.left h2,
+.left h4 {
   margin: 0;
 }
-.container h2
-{
-  font-size: clamp(15px,2vw,1.5rem);
+.container h2 {
+  font-size: clamp(15px, 2vw, 1.5rem);
 }
-.container h4
-{
-  font-size: clamp(12px,2vw,1rem);
+.container h4 {
+  font-size: clamp(12px, 2vw, 1rem);
 }
-.right
-{
-  margin-left: 100px ;
+.right {
+  margin-left: 100px;
 }
-@media (max-width: 425px)
-{
-  .container
-  {
+@media (max-width: 425px) {
+  .container {
     padding: 0.625rem 0.5rem;
   }
 }
