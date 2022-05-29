@@ -18,7 +18,7 @@ export interface events {
 export const EventCarousel: React.FC<{ events: events[] }> = (props) => {
   return (
     <div className={classes.container}>
-      <h1>Events</h1>
+      <h1>वार्षिकोत्सव कार्यक्रम</h1>
       <Swiper
         modules={[Navigation, Pagination, Lazy, Autoplay]}
         spaceBetween={30}
@@ -38,7 +38,7 @@ export const EventCarousel: React.FC<{ events: events[] }> = (props) => {
           return (
             <SwiperSlide key={index} className={classes.swiperSlide}>
               <div className={classes.description_container}>
-              <p className={classes.description}>{event.description}</p>
+                <p className={classes.description}>{event.description}</p>
               </div>
               <img src={event.image} alt="events" />
             </SwiperSlide>

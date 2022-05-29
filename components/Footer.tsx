@@ -9,16 +9,17 @@ const Footer = () => {
         <h1>गायत्री संस्कृत माध्यमिक विद्यालय</h1>
         <span className={classes.footer_items}>
           <FontAwesomeIcon icon={faHouse} />
-          <h2>Address:</h2>
+          <h2>पता:</h2>
           <h2>
             गायत्री संस्कृत माध्यमिक विद्यालय भटपुरवा बजदहिया पाईपुर बसखारी
-            अंबेडकर नगर
+            अंबेडकर नगर - 224137
           </h2>
         </span>
         <span className={classes.footer_items}>
           <FontAwesomeIcon icon={faPhone} />
           <h2 className={classes.last}>संपर्क सूत्र:</h2>
-          <h2 className={classes.last}>+91 9936734038</h2>
+          <h2 className={classes.last}>+91 9936734038 /</h2>
+          <h2 className={classes.last}>9936201769</h2>
         </span>
       </div>
       <div className={classes.footerinfo}>

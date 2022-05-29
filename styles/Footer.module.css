@@ -11,6 +11,7 @@
   display: flex;
   align-items: baseline;
   gap: 0.4rem;
+  max-width: 34rem;
 }
 .last {
   margin-bottom: 20px;

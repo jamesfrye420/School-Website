@@ -12,10 +12,6 @@ export const Description: React.FC<{ images: images }> = (props) => {
     <>
       <div className={classes.container}>
         <div className={classes.container__element}>
-          <h1>प्रधानाचार्य अरविंद कुमार त्रिपाठी</h1>
-          <img src={props.images.principal} alt="principal" />
-        </div>
-        <div className={classes.container__element}>
           <h1>संस्थापक स्व राजेन्द्र प्रसाद त्रिपाठी</h1>
           <img src={props.images.founder} alt="founder" />
         </div>
@@ -26,6 +22,10 @@ export const Description: React.FC<{ images: images }> = (props) => {
             src={props.images.manager}
             alt="manager"
           />
+        </div>
+        <div className={classes.container__element}>
+          <h1>प्रधानाचार्य अरविंद कुमार त्रिपाठी</h1>
+          <img src={props.images.principal} alt="principal" />
         </div>
       </div>
       <div className={classes.container__element__message}>

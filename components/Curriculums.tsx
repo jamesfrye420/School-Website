@@ -9,7 +9,11 @@ export const Curriculums: React.FC<{ curriculums: curriculums }> = (props) => {
   return (
     <div className={classes.treeimage}>
       <h1>{props.curriculums.description}</h1>
-      <img className={classes.img} src={props.curriculums.image} alt={props.curriculums.description} />
+      <img
+        className={classes.img}
+        src={props.curriculums.image}
+        alt={props.curriculums.description}
+      />
     </div>
   );
 };

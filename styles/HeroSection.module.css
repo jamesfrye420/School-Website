@@ -2,7 +2,7 @@
   background-color: rgb(245, 245, 94);
   display: flex;
   justify-content: space-between;
-  padding: 3.125rem 5%;
+  padding: 2rem 5%;
   align-items: baseline;
 }
 .left img {
