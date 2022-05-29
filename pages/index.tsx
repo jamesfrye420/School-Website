@@ -9,8 +9,7 @@ import { curriculums, Curriculums } from '../components/Curriculums';
 
 const events: events[] = [
   {
-    description:
-      'विद्यालय के प्रतिभा सम्मान समारोह',
+    description: 'विद्यालय के प्रतिभा सम्मान समारोह',
     image: 'functions/0003.jpg',
   },
   {
@@ -39,6 +38,7 @@ const events: events[] = [
 const descriptionImages: images = {
   principal: 'principal.jpeg',
   manager: 'manager.jpeg',
+  founder: 'establishedBy.jpeg',
 };
 
 const treeCurriculum: curriculums = {

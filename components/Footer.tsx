@@ -1,4 +1,3 @@
-// import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import { faHouse, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
