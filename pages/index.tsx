@@ -14,6 +14,8 @@ const events: string[] = [
   'functions/0006.jpeg',
 
   'functions/0007.jpeg',
+   
+  'functions/0008.jpeg'
 ];
 
 const Home: NextPage = () => {
