@@ -6,8 +6,9 @@
   align-items: center;
 }
 .left img {
-  height: 4rem;
+  /* height: 4rem; */
   width: 4rem;
+  aspect-ratio: 1;
   margin: 0;
   padding: 0;
 }
@@ -27,5 +28,22 @@
 @media (max-width: 425px) {
   .container {
     padding: 0.625rem 0.5rem;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .left img
+  {
+    position: relative;
+    left: 40%;
+  }
+  .right h2
+  {
+    text-align: center;
+    right: 15%;
+    position: relative;
+  }
+  .left h2, .left h4
+  {
+    text-align: center;
   }
 }

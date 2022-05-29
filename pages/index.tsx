@@ -7,7 +7,7 @@ import HeroSection from '../components/HeroSection';
 import { images, Description } from '../components/Description';
 
 const events: string[] = [
-  'functions/0003.jpeg',
+  'functions/0003.jpg',
 
   'functions/0004.jpeg',
 
