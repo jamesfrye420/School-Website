@@ -7,22 +7,22 @@
   margin: 0px 10px 6rem 10px;
 }
 .container h1 {
-    text-align: center;
+  text-align: center;
 }
 .Swiper {
-    height: 600px;
-    border-radius: 20px;
+  height: 600px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-.description_container
-{
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    padding: 0px 20px;
-    left: 0px;
-    color: white;
-    font-weight: 200;
-    font-size: 50px;
-    width: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+.description_container {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  padding: 0px 20px;
+  left: 0px;
+  color: white;
+  font-weight: 200;
+  font-size: 50px;
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }

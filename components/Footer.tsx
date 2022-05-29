@@ -18,8 +18,8 @@ const Footer = () => {
         </span>
         <span className={classes.footer_items}>
           <FontAwesomeIcon icon={faPhone} />
-          <h2 className={classes.last}>Contact Us:</h2>
-          <h2 className={classes.last}>00000000000</h2>
+          <h2 className={classes.last}>संपर्क सूत्र:</h2>
+          <h2 className={classes.last}>+91 9936734038</h2>
         </span>
       </div>
       <div className={classes.footerinfo}>

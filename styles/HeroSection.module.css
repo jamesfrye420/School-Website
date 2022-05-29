@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   padding: 3.125rem 5%;
-  align-items: center;
+  align-items: baseline;
 }
 .left img {
   /* height: 4rem; */
@@ -31,19 +31,17 @@
     flex-flow: row wrap;
     justify-content: center;
   }
-  .left img
-  {
+  .left img {
     position: relative;
     left: 40%;
   }
-  .right h2
-  {
+  .right h2 {
     text-align: center;
     right: 15%;
     position: relative;
   }
-  .left h2, .left h4
-  {
+  .left h2,
+  .left h4 {
     text-align: center;
   }
 }
