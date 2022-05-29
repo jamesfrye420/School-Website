@@ -4,6 +4,8 @@ import EventCarousel from '../components/EventCarousel';
 import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
 
+import { images, Description } from '../components/Description';
+
 const events: string[] = [
   'functions/0003.jpeg',
 
@@ -14,9 +16,14 @@ const events: string[] = [
   'functions/0006.jpeg',
 
   'functions/0007.jpeg',
-   
-  'functions/0008.jpeg'
+
+  'functions/0008.jpeg',
 ];
+
+const descriptionImages: images = {
+  principal: 'principal.jpeg',
+  manager: 'manager.jpeg',
+};
 
 const Home: NextPage = () => {
   return (
@@ -28,6 +35,7 @@ const Home: NextPage = () => {
         <HeroSection />
         <img src="school.jpeg" alt="image" className="index__image" />
         <EventCarousel events={events} />
+        <Description images={descriptionImages} />
         <Footer />
       </div>
     </>

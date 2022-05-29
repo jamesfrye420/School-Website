@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className={classes.footer}>
       <div className={classes.footer__address}>
-        <h1>Gayatri Sankrit Vidyalaya</h1>
+        <h1>गायत्री संस्कृत माध्यमिक विद्यालय</h1>
         <span className={classes.footer_items}>
           <FontAwesomeIcon icon={faHouse} />
           <h2>Address:</h2>

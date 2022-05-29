@@ -4,12 +4,12 @@
   transform: translateX(-50%);
   width: 80%;
   height: 600px;
+  margin: 0px 10px 6rem 10px;
 }
 .container h1 {
   text-align: center;
 }
 .Swiper {
   height: 600px;
-  margin: 0px 10px 50px 10px;
   border-radius: 20px;
 }
