@@ -4,7 +4,7 @@
   align-items: flex-start;
   padding: 3.125rem 5%;
   background-color: rgb(245, 245, 94);
-  margin-top: 100px;
+  margin-top: 20px;
   inset: auto 0 0 0;
   position: sticky;
 }
@@ -17,10 +17,10 @@
   margin-bottom: 20px;
 }
 .footer h1 {
-  font-size: clamp(2rem, 2rem, 1.5rem);
+  font-size: clamp(2rem, 2vw, 1.5rem);
 }
 .footer h2 {
-  font-size: clamp(1rem, 2rem, 1rem);
+  font-size: clamp(1rem, 1.5vw, 1rem);
 }
 .footer__address {
   max-width: clamp(50%, 30%, 30%);

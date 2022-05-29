@@ -10,7 +10,7 @@ import { curriculums, Curriculums } from '../components/Curriculums';
 const events: events[] = [
   {
     description:
-      'विद्यालय के प्रतिभा सम्मान समारोह में प्रतिभाओं को सम्मानित करते प्राचार्य डॉ जेबी सिंह भाजपा जिला अध्यक्ष डॉ मिथिलेश त्रिपाठी कौन प्राचार्य डॉ रामप्रताप मिश्रा',
+      'विद्यालय के प्रतिभा सम्मान समारोह',
     image: 'functions/0003.jpg',
   },
   {
@@ -19,20 +19,20 @@ const events: events[] = [
     image: 'functions/0006.jpeg',
   },
   {
-    description: 'Annula Function',
-    image: 'functions/0004.jpeg',
+    description: 'Annual Function',
+    image: 'functions/0004.jpg',
   },
   {
-    description: 'Annula Function',
-    image: 'functions/0005.jpeg',
+    description: 'Annual Function',
+    image: 'functions/0005.jpg',
   },
   {
-    description: 'Annula Function',
-    image: 'functions/0007.jpeg',
+    description: 'Annual Function',
+    image: 'functions/0007.jpg',
   },
   {
-    description: 'Annula Function',
-    image: 'functions/0008.jpeg',
+    description: 'Annual Function',
+    image: 'functions/0008.jpg',
   },
 ];
 

@@ -37,7 +37,9 @@ export const EventCarousel: React.FC<{ events: events[] }> = (props) => {
         {props.events.map((event, index) => {
           return (
             <SwiperSlide key={index} className={classes.swiperSlide}>
-              <p>{event.description}</p>
+              <div className={classes.description_container}>
+              <p className={classes.description}>{event.description}</p>
+              </div>
               <img src={event.image} alt="events" />
             </SwiperSlide>
           );
