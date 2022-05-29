@@ -10,7 +10,12 @@ import 'swiper/css/pagination';
 
 import classes from '../styles/EventCarousel.module.css';
 
-const EventCarousel: React.FC<{ events: string[] }> = (props) => {
+export interface events {
+  image: string;
+  description: string;
+}
+
+export const EventCarousel: React.FC<{ events: events[] }> = (props) => {
   return (
     <div className={classes.container}>
       <h1>Events</h1>
@@ -32,7 +37,8 @@ const EventCarousel: React.FC<{ events: string[] }> = (props) => {
         {props.events.map((event, index) => {
           return (
             <SwiperSlide key={index} className={classes.swiperSlide}>
-              <img src={event} alt="events" />
+              <p>{event.description}</p>
+              <img src={event.image} alt="events" />
             </SwiperSlide>
           );
         })}
